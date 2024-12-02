@@ -11,8 +11,8 @@
   
 2. Download the dataset folder > copy the path of the dataset folder > paste it into the code
 
-3. Upon running the `Train the model` section it will create a file called `Xception_Model.keras`
+3. After running all the cells, it will create additional files called `Xception_Model.keras` and `model.weights.h5`
 
-4. After running all the cwll, enter the path of the image you want in the last cell to check if it has the presence of COVID-19 or not
+4. Enter the path of the image you want in the last cell to check if it has the presence of COVID-19 or not
 
 5. This is how the final output will look like: 
