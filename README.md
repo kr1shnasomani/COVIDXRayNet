@@ -16,4 +16,8 @@
 
 4. Enter the path of the image you want in the last cell to check if it has the presence of COVID-19 or not
 
-5. This is how the final output will look like: 
+5. This is how the final output will look like:
+
+   ![image](https://github.com/user-attachments/assets/f5ef3561-cc00-44de-bc37-a8cc42a76994)
+
+   ![image](https://github.com/user-attachments/assets/791ad909-ae92-41b3-b59a-14506a8fe7d1)
