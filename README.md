@@ -8,6 +8,7 @@
    - scikit-learn
    - Matplotlib
    - OpenCV
+   - Keras
   
 2. Download the dataset folder > copy the path of the dataset folder > paste it into the code
 
