@@ -4,7 +4,7 @@ The model uses the Xception architecture to classify chest X-ray images into "CO
 
 ## Execution Guide:
 
-1. Run the following command lines in the terminal:
+1. Run the following command line in the terminal:
    ```
    pip install pandas numpy opencv-python seaborn matplotlib tqdm scikit-learn keras tensorflow
    ```
