@@ -9,7 +9,7 @@ The model uses the Xception architecture to classify chest X-ray images into "CO
    pip install pandas numpy opencv-python seaborn matplotlib tqdm scikit-learn keras tensorflow
    ```
   
-2. Download the dataset folder
+2. Download the dataset (link to the dataset: **https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset**)
 
 3. Copy the path of the dataset folder and paste it into the code
 
