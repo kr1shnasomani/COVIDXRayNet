@@ -13,11 +13,11 @@ The model uses the Xception architecture to classify chest X-ray images into "CO
 
 3. Copy the path of the dataset folder and paste it into the code
 
-4. After running all the cells, it will create an additional file called `Xception_Model.keras`
+4. After running all the cells, it will create an additional file called `Xception_Model.keras` (this file stores the model, you can download the model from the repositry and directly use it)
 
-5. Enter the path of the image you want in the last cell to check if it has the presence of COVID-19 or not
+6. Enter the path of the image you want in the last cell to check if it has the presence of COVID-19 or not
 
-6. This is how the final output will look like:
+7. This is how the final output will look like:
 
    ![image](https://github.com/user-attachments/assets/f5ef3561-cc00-44de-bc37-a8cc42a76994)
 
