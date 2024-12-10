@@ -29,13 +29,13 @@ The provided code implements a deep learning pipeline for detecting COVID-19 fro
 
 1. **Imports:** The code imports essential libraries like `os`, `pandas`, `numpy`, `cv2`, `keras`, and `tensorflow`, among others. These libraries provide the necessary tools for handling data, image processing, model creation, training, and evaluation.
 
-2. **Loading the Dataset**
+2. **Loading the Dataset:**
    - The dataset consists of two categories: `COVID` and `non-COVID`. These images are located in a specified directory (`data_dir`). The code reads the filenames and assigns each image to its corresponding class (`COVID` or `non-COVID`) in a pandas DataFrame.
    - It processes the images by resizing them to 64x64 pixels and normalizing them (dividing pixel values by 255) to scale the input images.
 
 3. **Splitting the Data:** The dataset is split into training and testing datasets using `train_test_split`, with 80% for training and 20% for testing.
 
-4. **Model Architecture (Xception)**
+4. **Model Architecture (Xception):**
    - A custom Xception-based CNN model is built using Keras. Xception is a pre-trained model, which is fine-tuned for this specific task. The architecture involves:
      - **Conv2D** layer to introduce convolutional processing.
      - **Xception** as the base model (excluding the top classification layers).
@@ -44,7 +44,7 @@ The provided code implements a deep learning pipeline for detecting COVID-19 fro
      - **Dense** layers for classification.
    - The model uses the Adam optimizer and categorical cross-entropy as the loss function for classification.
 
-5. **Model Training**
+5. **Model Training:**
    - The model is trained using an image data generator (`ImageDataGenerator`) to augment the dataset with transformations like rotation, shifting, and zooming to improve model generalization.
    - Two callbacks are used during training:
      - `ReduceLROnPlateau`: Reduces the learning rate if the validation accuracy plateaus.
@@ -60,7 +60,7 @@ The provided code implements a deep learning pipeline for detecting COVID-19 fro
 
 10. **Test Prediction:** The function is then used to predict the disease type for specific images from both the `COVID` and `non-COVID` categories.
 
-11. **Key Results**
+11. **Key Results:**
    - The model achieves an accuracy of around 87.53% on the test set, which indicates reasonable performance in distinguishing between COVID and non-COVID cases.
    - The classification report shows good precision, recall, and F1-scores for both classes (`COVID` and `non-COVID`), with the COVID class having slightly better performance.
 
