@@ -52,19 +52,15 @@ The provided code implements a deep learning pipeline for detecting COVID-19 fro
 
 6. **Training Accuracy & Loss Visualization:** The training and validation accuracy/loss are visualized over epochs using `matplotlib` to track the model's progress.
 
-### 7. **Model Evaluation**
-   - After training, the model is evaluated on the test set, and the loss and accuracy are printed. Additionally, the code calculates precision, recall, F1-score, and other metrics using the `classification_report` from `sklearn`.
+7. **Model Evaluation:** After training, the model is evaluated on the test set, and the loss and accuracy are printed. Additionally, the code calculates precision, recall, F1-score, and other metrics using the `classification_report` from `sklearn`.
 
-### 8. **Confusion Matrix**
-   - The confusion matrix is computed to evaluate how well the model is classifying the test set images into `COVID` and `non-COVID`. The confusion matrix is displayed using a heatmap, which shows the true positives, true negatives, false positives, and false negatives.
+8. **Confusion Matrix:** The confusion matrix is computed to evaluate how well the model is classifying the test set images into `COVID` and `non-COVID`. The confusion matrix is displayed using a heatmap, which shows the true positives, true negatives, false positives, and false negatives.
 
-### 9. **Image Prediction Function**
-   - A function `predict_image` is defined to make predictions on individual images. It takes an image path, loads and preprocesses the image, and then predicts whether the image belongs to the `COVID` or `non-COVID` category. The predicted class and confidence score are displayed along with the resized image.
+9. **Image Prediction Function:** A function `predict_image` is defined to make predictions on individual images. It takes an image path, loads and preprocesses the image, and then predicts whether the image belongs to the `COVID` or `non-COVID` category. The predicted class and confidence score are displayed along with the resized image.
 
-### 10. **Test Prediction**
-   - The function is then used to predict the disease type for specific images from both the `COVID` and `non-COVID` categories.
+10. **Test Prediction:** The function is then used to predict the disease type for specific images from both the `COVID` and `non-COVID` categories.
 
-### 11. **Key Results**
+11. **Key Results**
    - The model achieves an accuracy of around 87.53% on the test set, which indicates reasonable performance in distinguishing between COVID and non-COVID cases.
    - The classification report shows good precision, recall, and F1-scores for both classes (`COVID` and `non-COVID`), with the COVID class having slightly better performance.
 
