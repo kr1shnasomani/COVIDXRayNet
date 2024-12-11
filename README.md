@@ -25,7 +25,7 @@ The model uses the Xception architecture to classify chest X-ray images into "CO
 
 
 ## Overview:
-The provided code implements a deep learning pipeline for detecting COVID-19 from medical images using the Xception model, a powerful Convolutional Neural Network (CNN) architecture. Below is an overview of the code's key components and their functionality:
+The code implements a deep learning pipeline for detecting COVID-19 from medical images using the Xception model, a powerful Convolutional Neural Network (CNN) architecture. Below is an overview of the code's key components and their functionality:
 
 1. **Imports:** The code imports essential libraries like `os`, `pandas`, `numpy`, `cv2`, `keras`, and `tensorflow`, among others. These libraries provide the necessary tools for handling data, image processing, model creation, training, and evaluation.
 
