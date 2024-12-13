@@ -1,5 +1,4 @@
 # COVID-19 Chest X-Ray Detection
-
 The model uses the Xception architecture to classify chest X-ray images into "COVID" and "non-COVID" categories, achieving an accuracy of 87.53%. Incorporated effective preprocessing techniques, including image resizing and normalization, to enhance input quality.
 
 ## Execution Guide:
@@ -17,12 +16,17 @@ The model uses the Xception architecture to classify chest X-ray images into "CO
 
 6. Enter the path of the image you want in the last cell to check if it has the presence of COVID-19 or not
 
-7. This is how the final output will look like:
+## Accuracy & Loss Over Epochs:
+
+![image](https://github.com/user-attachments/assets/e122a73d-ec73-467c-aa95-cad8c9b516e6)
+
+![image](https://github.com/user-attachments/assets/b6829fed-926d-407f-9ac9-6ff0bdd4b757)
+
+## Model Prediction:
 
    ![image](https://github.com/user-attachments/assets/f5ef3561-cc00-44de-bc37-a8cc42a76994)
 
    ![image](https://github.com/user-attachments/assets/791ad909-ae92-41b3-b59a-14506a8fe7d1)
-
 
 ## Overview:
 The code implements a deep learning pipeline for detecting COVID-19 from medical images using the Xception model, a powerful Convolutional Neural Network (CNN) architecture. Below is an overview of the code's key components and their functionality:
