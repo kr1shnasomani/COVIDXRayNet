@@ -1,8 +1,7 @@
-# COVID-19 Chest X-Ray Detection
+# COVID-19 Detection
 The model uses the Xception architecture to classify chest X-ray images into "COVID" and "non-COVID" categories, achieving an accuracy of 87.53%. Incorporated effective preprocessing techniques, including image resizing and normalization, to enhance input quality.
 
 ## Execution Guide:
-
 1. Run the following command line in the terminal:
    ```
    pip install pandas numpy opencv-python seaborn matplotlib tqdm scikit-learn keras tensorflow
